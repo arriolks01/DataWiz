@@ -5,7 +5,7 @@ I will add all my projects here as well as a few projects I worked on during my 
 Electrical engineering student with a minor in Computer Information Systems.
 
 ```markdown
-Syntax highlighted code block
+
 
 
 
