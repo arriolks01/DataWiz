@@ -1,3 +1,3 @@
-# datawiz
-Adding illustration to the my portfolio
-![](Normaldash.JPG)
+#dataviz
+
+This is my first offical github page.
