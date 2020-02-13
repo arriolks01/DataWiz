@@ -4,7 +4,7 @@ As promised and discussed over and over. Here it is! As I pursue my journey in s
 I will add all my projects here as well as a few projects I worked on during my undergrad as an 
 Electrical engineering student with a minor in Computer Information Systems.
 
-![Normaldash](file:///C:/Users/arriolks01/Desktop/GitHub%20Portfoilo/images/Normaldash.JPG)
+![CaptureU](https://user-images.githubusercontent.com/19754440/74459362-29e2b280-4e59-11ea-8e05-b29ce4820431.PNG)
 
 
 ```markdown
