@@ -9,7 +9,7 @@ body
     linear-gradient(315deg,#e6e6ff 25%, transparent 25%),
     linear-gradient(45deg, #e6e6ff 25%, transparent 25%);	
   background-size: 100px 100px;
-  background-color: white;
+  background-color: green;
 }
 
 p{
