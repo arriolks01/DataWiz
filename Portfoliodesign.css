@@ -11,7 +11,7 @@
 		font-family: 'Didact Gothic', sans-serif;
 		font-size: 12pt;
 		font-weight: 200;
-		color: #FFF;
+		color: rgba(255,255,255,0.60);
 	}
 	
 	
@@ -167,12 +167,12 @@
 		letter-spacing: 0.10em;
 		margin-top: 2em;
 		padding: 1.40em 3em;
-		border: 2px solid rgba(255,255,255,1);
+		border: 2px solid rgba(255,255,255,0.60);
 		border-radius: 6px;
 		text-decoration: none;
 		font-weight: 700;
 		font-size: 1em;
-		color: #FFF;
+		color: rgba(255,255,255,0.60);
 	}
 	
 	.button-alt
@@ -180,6 +180,22 @@
 		padding: 1em 2em;
 		border-color: rgba(0,0,0,.8);
 		color: rgba(0,0,0,.8);
+	}
+
+
+	.button:hover
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgb(165, 63, 191);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: rgb(165, 63, 191);
 	}
 		
 /*********************************************************************************/
@@ -279,7 +295,7 @@
 	{
 		position: relative;
 		padding: 5em 0em 7em 0em;
-		background: #FFF;
+		background: #fff;
 	}
 
 /*********************************************************************************/
@@ -359,6 +375,13 @@
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
+        padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: rgb(165, 63, 191);
+		
 	}
 	
 	#menu .active a
@@ -385,6 +408,7 @@
 	#banner .title h2
 	{
 		font-size: 4em;
+		color: #FFF;
 	}
 	
 	#banner .title .byline
@@ -396,7 +420,18 @@
 	{
 		margin-top: 2em;
 		padding: 1.40em 3em;
-		border: 2px solid rgba(255,255,255,1);
+		border: 2px solid rgba(255,255,255,0.60);
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+
+	#banner .button:hover
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgb(165, 63, 191);
 		border-radius: 6px;
 		font-weight: 700;
 		font-size: 1em;
@@ -433,6 +468,7 @@
 
 	#footer
 	{
+   
 	}
 
 /*********************************************************************************/
@@ -442,7 +478,7 @@
 	#copyright
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding-top: 10px;
 		border-top: 1px solid rgba(0,0,0,0.08);
 	}
 	
@@ -500,9 +536,19 @@
 	{
 		display: block;
 		padding: 1em 0em;
-		color: rgba(0,0,0,1);
+		color: rgba(0,0,0,1);       /*Project icon colors*/
 		font-size: 2em;
 	}
+
+#three-column .fa:hover
+	{
+		display: block;
+		padding: 1em 0em;
+		color: rgb(165, 63, 191);       /*Projects icon colors*/
+		font-size: 2em;
+	}
+
+
 	
 	#three-column .title h2
 	{
