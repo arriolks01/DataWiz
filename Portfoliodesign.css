@@ -205,7 +205,8 @@
 	.box1,
 	.box2,
 	.box3,
-	.box4
+	.box4,
+	.box5,
 	{
 		width: 235px;
 	}
@@ -213,15 +214,16 @@
 	.box1,
 	.box2,
 	.box3,
+	.box4,
+	.box5,
+	.box6,
 	{
 		float: left;
 		margin-right: 20px;
 	}
 	
-	.box4
-	{
-		float: right;
-	}
+	
+	
 	
 /*********************************************************************************/
 /* 3-column                                                                      */
@@ -229,19 +231,32 @@
 
 	.boxA,
 	.boxB,
-	.boxC
+	.boxC,
+	.boxD,
+	.boxE
+	
+	
+	
+
 	{
 		width: 384px;
 	}
 
 	.boxA,
 	.boxB
+	
+	
+	
 	{
 		float: left;
 		margin-right: 20px;
 	}
 	
 	.boxC
+
+	
+	
+	
 	{
 		float: right;
 	}
@@ -251,12 +266,14 @@
 /*********************************************************************************/
 
 	.tbox1,
-	.tbox2
+	.tbox2,
+	.tbox3,
 	{
 		width: 575px;
 	}
 	
 	.tbox1
+	
 	{
 		float: left;
 	}
@@ -265,6 +282,12 @@
 	{
 		float: right;
 	}
+
+.tbox3
+	{
+		float: center;
+	}
+
 
 	
 /*********************************************************************************/
